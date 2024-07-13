@@ -19,21 +19,19 @@ const PokemonRemoteApp: React.FC = () => {
   }, []);
 
 
-  return <LoadingPokemonCard />;
+  if (loading) {
+    return (<LoadingPokemonCard />)
+  }
 
-  // if (loading) {
-  //   return (<LoadingPokemonCard />)
-  // }
+  if (error) {
+    return (<ErrorPokemonCard />)
+  }
 
-  // if (error) {
-  //   return (<ErrorPokemonCard />)
-  // }
-
-  // return (
-  //   <div>
-  //     {data && <PokemonCard pokemon={data} />}
-  //   </div>
-  // )
+  return (
+    <div>
+      {data && <PokemonCard pokemon={data} />}
+    </div>
+  )
 }
 
 export default PokemonRemoteApp;
