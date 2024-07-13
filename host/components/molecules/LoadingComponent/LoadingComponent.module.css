@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  background: linear-gradient(-60deg, #f3f3f3 33%, #ddd, #f3f3f3 66%) right/300%
+    100%;
+  animation: move 1s linear infinite;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 250px;
+  height: 208px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.loadingMessage {
+  color: #000;
+  font-size: 1.2rem;
+}
+
+@keyframes move {
+  to {
+    background-position: left;
+  }
+}

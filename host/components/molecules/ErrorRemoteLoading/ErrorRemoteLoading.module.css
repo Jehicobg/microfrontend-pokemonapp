@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  background: #ff3333;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 200px;
+  height: 202px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.errorMessage {
+  color: #fff;
+  font-size: 1.2rem;
+}
