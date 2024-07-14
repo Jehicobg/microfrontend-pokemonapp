@@ -1,6 +1,6 @@
 # Microfrontend Pokémon App
 
-Este repositorio contiene un proyecto de microfrontend para una aplicación de Pokémon, que incluye un host y varias aplicaciones remotas.
+Este repositorio contiene un proyecto microfrontend para una aplicación de Pokémon, incluye un host y varias aplicaciones remotas.
 
 ## Estructura del Proyecto
 
