@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --detectOpenHandles --verbose",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run prepare && next build"
   },
   "dependencies": {
     "next": "13.5.6",

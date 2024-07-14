@@ -7,7 +7,7 @@
     "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run prepare && next build"
   },
   "dependencies": {
     "next": "13.5.6",

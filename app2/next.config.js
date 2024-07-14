@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */require('dotenv').config();
+require('dotenv').config();
 
-const host = process.env.APP1_URL || "http://localhost:3000";
+const host = process.env.HOST_URL || "http://localhost:3000";
 
 const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 

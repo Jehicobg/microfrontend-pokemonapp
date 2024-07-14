@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+require('dotenv').config();
+
+const host = process.env.HOST_URL || "http://localhost:3000";
+
 const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 
 const nextConfig = {
@@ -13,7 +17,7 @@ const nextConfig = {
         name: "app1",
         filename: "static/chunks/remoteEntry.js",
         remotes: {
-          host: `host@http://localhost:3000/_next/static/${
+          host: `host@${host}/_next/static/${
             isServer ? "ssr" : "chunks"
           }/remoteEntry.js`,
         },
