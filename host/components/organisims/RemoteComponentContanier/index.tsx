@@ -6,13 +6,13 @@ const RemoteComponentContainer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.item}>
-                <LoadRemoteComponent appPath="app1/App" numberApp={1} />
+                <LoadRemoteComponent appPath="app1/App" />
             </div>
             <div className={styles.item}>
-                <LoadRemoteComponent appPath="app2/App" numberApp={2} />
+                <LoadRemoteComponent appPath="app2/App" />
             </div>
             <div className={styles.item}>
-                <LoadRemoteComponent appPath="app3/App" numberApp={3} />
+                <LoadRemoteComponent appPath="app3/App" />
             </div>
         </div>
     );
