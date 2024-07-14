@@ -19,9 +19,15 @@ const nextConfig = {
         name: "host",
         filename: "static/chunks/remoteEntry.js",
         remotes: {
-          app1: `${app1Url}/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
-          app2: `${app2Url}/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
-          app3: `${app3Url}/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
+          app1: `app1@${app1Url}/_next/static/${
+            isServer ? "ssr" : "chunks"
+          }/remoteEntry.js`,
+          app2: `app2@${app2Url}/_next/static/${
+            isServer ? "ssr" : "chunks"
+          }/remoteEntry.js`,
+          app3: `app3@${app3Url}/_next/static/${
+            isServer ? "ssr" : "chunks"
+          }/remoteEntry.js`,
         },
       })
     );
