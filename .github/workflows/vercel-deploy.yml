@@ -7,8 +7,22 @@ on:
   workflow_dispatch:
 
 jobs:
+  test-host:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests for host
+        working-directory: ./host
+        run: npm test
+
   deploy-host:
     runs-on: ubuntu-latest
+    needs: test-host
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -22,8 +36,22 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
 
+  test-app1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests for app1
+        working-directory: ./app1
+        run: npm test
+
   deploy-app1:
     runs-on: ubuntu-latest
+    needs: test-app1
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -37,8 +65,22 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
 
+  test-app2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests for app2
+        working-directory: ./app2
+        run: npm test
+
   deploy-app2:
     runs-on: ubuntu-latest
+    needs: test-app2
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -52,8 +94,22 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
 
+  test-app3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests for app3
+        working-directory: ./app3
+        run: npm test
+
   deploy-app3:
     runs-on: ubuntu-latest
+    needs: test-app3
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2

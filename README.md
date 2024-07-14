@@ -133,7 +133,7 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
 
    Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
 
-3. **Ejecutar el proyecto**
+3. **Ejecutar el proyecto:**
    Cada aplicacion debe ser ejecutada de forma individual de la siguiente forma:
 
 - **Host**
