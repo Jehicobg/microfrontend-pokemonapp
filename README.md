@@ -114,51 +114,51 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
 2. **Instalar Dependencias:**
    Para cada una de las aplicaciones (host, app1, app2, app3) navega a cada directorio y ejecuta npm install para instalar sus dependencias:
 
-```bash
-# Para el proyecto Host
-# Cambiar a la ruta del host
-cd host
+   ```bash
+   # Para el proyecto Host
+   # Cambiar a la ruta del host
+   cd host
 
-# Instalar los paquetes
-npm install
-```
+   # Instalar los paquetes
+   npm install
+   ```
 
-```bash
-# Para la aplicación App1
-# Cambiar a la ruta principal
-cd ..
+   ```bash
+   # Para la aplicación App1
+   # Cambiar a la ruta principal
+   cd ..
 
-# Cambiar a la ruta APP1
-cd app1
+   # Cambiar a la ruta APP1
+   cd app1
 
-# Instalar los paquetes
-npm install
+   # Instalar los paquetes
+   npm install
 
-```
+   ```
 
-```bash
-# Para la aplicación App2
-# Cambiar a la ruta principal
-cd ..
+   ```bash
+   # Para la aplicación App2
+   # Cambiar a la ruta principal
+   cd ..
 
-# Cambiar a la ruta APP2
-cd app2
+   # Cambiar a la ruta APP2
+   cd app2
 
-# Instalar los paquetes
-npm install
-```
+   # Instalar los paquetes
+   npm install
+   ```
 
-```bash
-# Para la aplicación App3
-# Cambiar a la ruta principal
-cd ..
+   ```bash
+   # Para la aplicación App3
+   # Cambiar a la ruta principal
+   cd ..
 
-# Cambiar a la ruta APP3
-cd app3
+   # Cambiar a la ruta APP3
+   cd app3
 
-# Instalar los paquetes
-npm install
-```
+   # Instalar los paquetes
+   npm install
+   ```
 
 Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
 
