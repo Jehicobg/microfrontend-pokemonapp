@@ -102,7 +102,7 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/microfrontend-pokemonapp.git
+   git clone https://github.com/Jehicobg/microfrontend-pokemonapp.git
    cd microfrontend-pokemonapp
 
    ```
