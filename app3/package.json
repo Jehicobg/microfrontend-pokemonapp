@@ -7,21 +7,30 @@
     "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "test": "jest --detectOpenHandles --verbose",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "next": "13.5.6",
-    "react": "^18",
-    "react-dom": "^18",
-    "shared-components-challenge": "^1.1.18"
+    "react": "18",
+    "react-dom": "18",
+    "shared-components-challenge": "^1.1.20"
   },
   "devDependencies": {
     "@module-federation/nextjs-mf": "^8.4.0",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5",
     "webpack": "^5.93.0"
   }

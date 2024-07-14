@@ -1,5 +1,5 @@
 import React from 'react';
-import LoadRemoteComponent from '@/components/molecules/LoadRemoteComponent/LoadRemoteComponent';
+import LoadRemoteComponent from '@/components/molecules/LoadRemoteComponent';
 import styles from './RemoteComponentContainer.module.css';
 
 const RemoteComponentContainer = () => {

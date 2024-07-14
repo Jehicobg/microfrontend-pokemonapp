@@ -8,12 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --detectOpenHandles --verbose",
+    "coverage": "jest --coverage",
     "vercel-build": "npm run build"
   },
   "dependencies": {
     "next": "13.5.6",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "18",
+    "react-dom": "18",
     "shared-components-challenge": "^1.1.20"
   },
   "devDependencies": {

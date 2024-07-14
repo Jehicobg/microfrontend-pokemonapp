@@ -11,9 +11,7 @@ const dynamicComponents = {
 }
 
 const DynamicComponentApp1 = dynamicComponents['App1'];
-
 const DynamicComponentApp2 = dynamicComponents['App2'];
-
 const DynamicComponentApp3 = dynamicComponents['App3'];
 
 

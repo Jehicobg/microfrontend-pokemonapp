@@ -13,7 +13,7 @@ const MainTemplate: React.FC<MainTemplateProps> = ({ handleButtonClick }) => {
         <main className={styles.main}>
             <div className={styles.card}>
                 <Title text='Pokemon App Challenge' />
-                <Button onClick={handleButtonClick} title='Cambiar pokemon' />
+                <Button onClick={handleButtonClick} title='Cambiar pokémon' />
                 <RemoteComponentContainer />
             </div>
         </main>

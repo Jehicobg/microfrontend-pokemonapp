@@ -70,6 +70,16 @@ microfrontend-pokemonapp/
 
 ```
 
+## Arquitectura
+
+La aplicación sigue la metodología de Atomic Design y está estructurada en componentes reutilizables que se organizan en:
+
+- **Átomos**: Componentes básicos como botones, inputs, etc.
+- **Moléculas**: Combinaciones simples de átomos.
+- **Organismos**: Combinaciones más complejas de átomos y moléculas.
+- **Plantillas**: Estructuras de página que muestran la disposición de los organismos.
+- **Páginas**: Instancias de plantillas con contenido real.
+
 ### Componentes Compartidos
 
 Los componentes compartidos están organizados en el directorio `shared-components/`. Estos componentes están diseñados para facilitar la reutilización y mantener una consistencia visual en todas las aplicaciones remotas. La estructura del directorio `shared-components/` es la siguiente:
@@ -113,11 +123,11 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
    ```bash
    cd host
    npm install
-   cd ../app1
+   cd app1
    npm install
-   cd ../app2
+   cd app2
    npm install
-   cd ../app3
+   cd app3
    npm install
    ```
 
@@ -159,9 +169,15 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
 
 Este proyecto utiliza eventos personalizados para la comunicación entre microfrontends. Cada aplicación remota puede enviar y recibir eventos para actualizar el estado o sincronizar acciones con el Host u otras aplicaciones.
 
+## Funcionamiento
+
+El Host se comunica con las aplicaciones remotas. Cuando se hace clic en el botón 'CAMBIAR POKÉMON', el Host envía un evento personalizado (custom event) que las aplicaciones escuchan. Al recibir este evento, las aplicaciones realizan una nueva solicitud a la API para actualizar su contenido con los nuevos recursos.
+
 ## Despliegue
 
 Este proyecto está configurado para el despliegue automático en Vercel. Cualquier cambio realizado en la rama principal (main) se desplegará automáticamente en Vercel.
+
+Link del proyecto publicado: https://host-woad.vercel.app/
 
 ## Licencia
 
