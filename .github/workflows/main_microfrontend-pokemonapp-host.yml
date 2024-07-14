@@ -69,3 +69,8 @@ jobs:
           app-name: "microfrontend-pokemonapp-host"
           slot-name: "Production"
           package: .
+
+      - name: View deployment logs
+        run: |
+          az webapp log tail --name microfrontend-pokemonapp-host --resource-group microfrontend-pokemonapp-host_group
+          if: failure()
