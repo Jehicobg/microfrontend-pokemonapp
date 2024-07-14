@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "projects": [
+      {
+        "name": "host",
+        "path": "microfrontend-pokemonapp/host"
+      },
+      {
+        "name": "app1",
+        "path": "microfrontend-pokemonapp/app1"
+      },
+      {
+        "name": "app2",
+        "path": "microfrontend-pokemonapp/app2"
+      },
+      {
+        "name": "app3",
+        "path": "microfrontend-pokemonapp/app3"
+      }
+    ],
+    "builds": [
+      { "src": "microfrontend-pokemonapp/host/next.config.js", "use": "@vercel/next" },
+      { "src": "microfrontend-pokemonapp/app1/next.config.js", "use": "@vercel/next" },
+      { "src": "microfrontend-pokemonapp/app2/next.config.js", "use": "@vercel/next" },
+      { "src": "microfrontend-pokemonapp/app3/next.config.js", "use": "@vercel/next" }
+    ],
+    "routes": [
+      { "src": "/host/(.*)", "dest": "microfrontend-pokemonapp/host/$1" },
+      { "src": "/app1/(.*)", "dest": "microfrontend-pokemonapp/app1/$1" },
+      { "src": "/app2/(.*)", "dest": "microfrontend-pokemonapp/app2/$1" },
+      { "src": "/app3/(.*)", "dest": "microfrontend-pokemonapp/app3/$1" }
+    ]
+  }
+  
