@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/app1/(.*)",
+        "dest": "/app1/$1"
+      },
+      {
+        "src": "/app2/(.*)",
+        "dest": "/app2/$1"
+      },
+      {
+        "src": "/app3/(.*)",
+        "dest": "/app3/$1"
+      }
+    ]
+  }
+  

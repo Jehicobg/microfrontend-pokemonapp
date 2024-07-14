@@ -1,0 +1,76 @@
+name: Deploy to Vercel Microfrontends
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy-host:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Login to Vercel
+        run: vercel login $VERCEL_TOKEN
+
+      - name: Deploy host to Vercel
+        working-directory: ./microfrontend-pokemonapp/host
+        run: |
+          vercel --prod --confirm
+
+  deploy-app1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Login to Vercel
+        run: vercel login $VERCEL_TOKEN
+
+      - name: Deploy app1 to Vercel
+        working-directory: ./microfrontend-pokemonapp/app1
+        run: |
+          vercel --prod --confirm
+
+  deploy-app2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Login to Vercel
+        run: vercel login $VERCEL_TOKEN
+
+      - name: Deploy app2 to Vercel
+        working-directory: ./microfrontend-pokemonapp/app2
+        run: |
+          vercel --prod --confirm
+
+  deploy-app3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Login to Vercel
+        run: vercel login $VERCEL_TOKEN
+
+      - name: Deploy app3 to Vercel
+        working-directory: ./microfrontend-pokemonapp/app3
+        run: |
+          vercel --prod --confirm
