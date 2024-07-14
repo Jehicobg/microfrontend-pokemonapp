@@ -16,13 +16,12 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Login to Vercel
-        run: vercel login ${{ secrets.VERCEL_TOKEN }}
-
       - name: Deploy host to Vercel
         working-directory: ./microfrontend-pokemonapp/host
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          vercel --prod --confirm
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
 
   deploy-app1:
     runs-on: ubuntu-latest
@@ -33,13 +32,12 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Login to Vercel
-        run: vercel login ${{ secrets.VERCEL_TOKEN }}
-
       - name: Deploy app1 to Vercel
         working-directory: ./microfrontend-pokemonapp/app1
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          vercel --prod --confirm
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
 
   deploy-app2:
     runs-on: ubuntu-latest
@@ -50,13 +48,12 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Login to Vercel
-        run: vercel login ${{ secrets.VERCEL_TOKEN }}
-
       - name: Deploy app2 to Vercel
         working-directory: ./microfrontend-pokemonapp/app2
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          vercel --prod --confirm
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
 
   deploy-app3:
     runs-on: ubuntu-latest
@@ -67,10 +64,9 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Login to Vercel
-        run: vercel login ${{ secrets.VERCEL_TOKEN }}
-
       - name: Deploy app3 to Vercel
         working-directory: ./microfrontend-pokemonapp/app3
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
-          vercel --prod --confirm
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
