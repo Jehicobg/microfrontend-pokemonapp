@@ -17,7 +17,7 @@ jobs:
         run: npm install -g vercel
 
       - name: Login to Vercel
-        run: vercel login $VERCEL_TOKEN
+        run: vercel login ${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy host to Vercel
         working-directory: ./microfrontend-pokemonapp/host
@@ -34,7 +34,7 @@ jobs:
         run: npm install -g vercel
 
       - name: Login to Vercel
-        run: vercel login $VERCEL_TOKEN
+        run: vercel login ${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy app1 to Vercel
         working-directory: ./microfrontend-pokemonapp/app1
@@ -51,7 +51,7 @@ jobs:
         run: npm install -g vercel
 
       - name: Login to Vercel
-        run: vercel login $VERCEL_TOKEN
+        run: vercel login ${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy app2 to Vercel
         working-directory: ./microfrontend-pokemonapp/app2
@@ -68,7 +68,7 @@ jobs:
         run: npm install -g vercel
 
       - name: Login to Vercel
-        run: vercel login $VERCEL_TOKEN
+        run: vercel login ${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy app3 to Vercel
         working-directory: ./microfrontend-pokemonapp/app3
