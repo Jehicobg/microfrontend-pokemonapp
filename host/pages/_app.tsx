@@ -4,7 +4,8 @@ import { Poppins } from 'next/font/google'
 
 const font = Poppins({
   weight: '400',
-  subsets: ['latin']
+  subsets: ['latin'],
+  fallback: ["Segoe UI Mono"]
 });
 
 export default function App({ Component, pageProps }: AppProps) {

@@ -70,16 +70,6 @@ microfrontend-pokemonapp/
 
 ```
 
-## Arquitectura
-
-La aplicación sigue la metodología de Atomic Design y está estructurada en componentes reutilizables que se organizan en:
-
-- **Átomos**: Componentes básicos como botones, inputs, etc.
-- **Moléculas**: Combinaciones simples de átomos.
-- **Organismos**: Combinaciones más complejas de átomos y moléculas.
-- **Plantillas**: Estructuras de página que muestran la disposición de los organismos.
-- **Páginas**: Instancias de plantillas con contenido real.
-
 ### Componentes Compartidos
 
 Los componentes compartidos están organizados en el directorio `shared-components/`.
