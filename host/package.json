@@ -2,6 +2,8 @@
   "name": "host",
   "version": "0.1.0",
   "private": true,
+  "author": "Jehicob Guerrero",
+  "license": "MIT",
   "scripts": {
     "dev": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
     "build": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",

@@ -82,7 +82,9 @@ La aplicación sigue la metodología de Atomic Design y está estructurada en co
 
 ### Componentes Compartidos
 
-Los componentes compartidos están organizados en el directorio `shared-components/`. Estos componentes están diseñados para facilitar la reutilización y mantener una consistencia visual en todas las aplicaciones remotas. La estructura del directorio `shared-components/` es la siguiente:
+Los componentes compartidos están organizados en el directorio `shared-components/`.
+
+Estos componentes están diseñados para facilitar la reutilización y mantener una consistencia visual en todas las aplicaciones remotas. Además, este paquete incluye el hook usePokemon, el cual realiza peticiones a la API de `https://pokeapi.co/` para obtener datos de Pokémon. La estructura del directorio shared-components/ es la siguiente:
 
 ```bash
 shared-components/
@@ -220,7 +222,7 @@ El Host se comunica con las aplicaciones remotas. Cuando se hace clic en el bot�
 
 ## Despliegue
 
-Este proyecto está configurado para el despliegue automático en Vercel. Cualquier cambio realizado en la rama principal (main) se desplegará automáticamente en Vercel.
+Este proyecto está configurado para el despliegue automático en Vercel mediante el archivo `vercel-deploy.yml`. Cualquier cambio realizado en la rama principal (main) se desplegará automáticamente en Vercel.
 
 Link del proyecto publicado: https://host-woad.vercel.app/
 

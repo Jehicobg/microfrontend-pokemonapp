@@ -14,7 +14,7 @@
   ],
   "keywords": [],
   "author": "Jehicob Guerrero",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.7.2",
     "next": "13.5.6",
