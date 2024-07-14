@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-require('dotenv').config();
 
 const host = process.env.HOST_URL || "http://localhost:3000";
 

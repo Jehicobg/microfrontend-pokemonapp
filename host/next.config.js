@@ -1,5 +1,4 @@
-// Importa dotenv para cargar las variables de entorno
-require('dotenv').config();
+/** @type {import('next').NextConfig} */
 
 const app1Url = process.env.APP1_URL || "http://localhost:3001";
 const app2Url = process.env.APP2_URL || "http://localhost:3002";
