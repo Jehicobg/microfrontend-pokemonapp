@@ -7,7 +7,13 @@ Esta aplicación actúa como el hub central del microfrontend, comunicándose co
 1. Para iniciar la aplicación en modo de desarrollo:
 
 ```bash
+# Cambiar a la ruta principal
+cd ..
+
+# Cambiar a la ruta del Host
 cd host
+
+# Iniciar Host
 npm run dev
 ```
 
@@ -16,8 +22,13 @@ Esto iniciará la aplicación en http://localhost:3000 por defecto.
 2. Para compilar y ejecutar la aplicación en modo de producción:
 
 ```bash
+# Cambiar a la ruta principal
+cd ..
+
+# Cambiar a la ruta del Host
 cd host
-npm run build
+
+# Iniciar Host
 npm start
 ```
 

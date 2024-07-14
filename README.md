@@ -104,42 +104,90 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/Jehicobg/microfrontend-pokemonapp.git
-   cd microfrontend-pokemonapp
+    # Clonar el repositorio
+    git clone https://github.com/Jehicobg/microfrontend-pokemonapp.git
 
+    # Cambiar al directorio del proyecto clonado
+    cd microfrontend-pokemonapp
    ```
 
 2. **Instalar Dependencias:**
    Para cada una de las aplicaciones (host, app1, app2, app3) navega a cada directorio y ejecuta npm install para instalar sus dependencias:
 
    ```bash
-   cd host
-   npm install
-   cd app1
-   npm install
-   cd app2
-   npm install
-   cd app3
-   npm install
+    # Para el proyecto Host:
+    # Cambiar a la ruta del host
+    cd host
+
+    # Instalar los paquetes
+    npm install
    ```
 
-   Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
+```
+  # Para la aplicación App1
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP1
+  cd app1
+
+  # Instalar los paquetes
+  npm install
+
+```
+
+    # Para la aplicación App2
+    # Cambiar a la ruta principal
+    cd ..
+
+    # Cambiar a la ruta APP2
+    cd app2
+
+    # Instalar los paquetes
+    npm install
+
+```
+  # Para la aplicación App3
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP3
+  cd app3
+
+  # Instalar los paquetes
+  npm install
+```
+
+Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
 
 3. **Ejecución local del proyecto:**
    Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
 - **Host**
+
   ```bash
-  # Iniciar Host
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta del host
   cd host
+
+  # Ejecutar host
   npm run dev
   ```
+
   Esto iniciará el servidor de desarrollo en http://localhost:3000 por defecto.
+
 - **APP1**
 
   ```bash
-  # Iniciar APP1
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP1
   cd app1
+
+  # Ejecutar APP1
   npm run dev
   ```
 
@@ -148,19 +196,31 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
 - **APP2**
 
   ```bash
-  # Iniciar APP2
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP2
   cd app2
+
+  # Ejcutar APP2
   npm run dev
   ```
 
   Esto iniciará el servidor de desarrollo en http://localhost:3002 por defecto.
 
 - **APP3**
+
   ```bash
-  # Iniciar APP3
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP3
   cd app1
+
+  # Ejcutar APP3
   npm run dev
   ```
+
   Esto iniciará el servidor de desarrollo en http://localhost:3003 por defecto.
 
 4. **Ejecutar el proyecto para producción:**
@@ -169,31 +229,52 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
 - **Host**
 
   ```bash
-  # Iniciar Host
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta del Host
   cd host
+
+  # Iniciar Host
   npm start
   ```
 
 - **APP1**
 
   ```bash
-  # Iniciar APP1
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP1
   cd app1
+
+  # Iniciar APP1
   npm start
   ```
 
 - **APP2**
 
   ```bash
-  # Iniciar APP2
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP2
   cd app2
+
+  # Iniciar APP2
   npm start
   ```
 
 - **APP3**
+
   ```bash
-  # Iniciar APP3
+  # Cambiar a la ruta principal
+  cd ..
+
+  # Cambiar a la ruta APP2
   cd app1
+
+  # Iniciar APP3
   npm start
   ```
 
