@@ -126,7 +126,7 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
    Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
 
 3. **Ejecución local del proyecto:**
-   Cada aplicacion debe ser ejecutada de forma individual de la siguiente forma:
+   Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
 - **Host**
   ```bash
@@ -136,19 +136,25 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
   ```
   Esto iniciará el servidor de desarrollo en http://localhost:3000 por defecto.
 - **APP1**
+
   ```bash
   # Iniciar APP1
   cd app1
   npm run dev
   ```
+
   Esto iniciará el servidor de desarrollo en http://localhost:3001 por defecto.
+
 - **APP2**
+
   ```bash
   # Iniciar APP2
   cd app2
   npm run dev
   ```
+
   Esto iniciará el servidor de desarrollo en http://localhost:3002 por defecto.
+
 - **APP3**
   ```bash
   # Iniciar APP3
@@ -158,8 +164,7 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
   Esto iniciará el servidor de desarrollo en http://localhost:3003 por defecto.
 
 4. **Ejecutar el proyecto para producción:**
-
-Cada aplicacion debe ser ejecutada de forma individual de la siguiente forma:
+   Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
 - **Host**
 
