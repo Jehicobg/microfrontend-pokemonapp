@@ -135,21 +135,21 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
   Esto iniciará el servidor de desarrollo en http://localhost:3000 por defecto.
 - **APP1**
   ```bash
-  # Iniciar Host
+  # Iniciar APP1
   cd app1
   npm run dev
   ```
   Esto iniciará el servidor de desarrollo en http://localhost:3001 por defecto.
 - **APP2**
   ```bash
-  # Iniciar Host
+  # Iniciar APP2
   cd app2
   npm run dev
   ```
   Esto iniciará el servidor de desarrollo en http://localhost:3002 por defecto.
 - **APP3**
   ```bash
-  # Iniciar Host
+  # Iniciar APP3
   cd app1
   npm run dev
   ```
