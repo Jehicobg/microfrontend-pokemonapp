@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
-    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
-    "start": "next start",
+    "build": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "npm run build && next start",
     "lint": "next lint",
     "test": "jest --detectOpenHandles --verbose",
     "coverage": "jest --coverage",
@@ -15,7 +15,7 @@
     "next": "13.5.6",
     "react": "18",
     "react-dom": "18",
-    "shared-components-challenge": "^1.1.20"
+    "shared-components-challenge": "^1.1.21"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.8",

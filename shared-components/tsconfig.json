@@ -15,8 +15,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "types": ["jest", "@testing-library/jest-dom"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "index.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "index.d.ts", "css.d.ts"],
   "exclude": ["node_modules"]
 }

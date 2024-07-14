@@ -97,7 +97,7 @@ shared-components/
 └── ...
 ```
 
-Estos paquetes han sido compartidos a través de un paquete npm, link del paquete: https://www.npmjs.com/package/shared-components-challenge
+Estos componentes han sido compartidos a través de un paquete npm, link del paquete: https://www.npmjs.com/package/shared-components-challenge
 
 ## Tecnologías Utilizadas
 
@@ -133,7 +133,7 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
 
    Este paso asegura que cada aplicación tenga instaladas sus dependencias necesarias.
 
-3. **Ejecutar el proyecto:**
+3. **Ejecución local del proyecto:**
    Cada aplicacion debe ser ejecutada de forma individual de la siguiente forma:
 
 - **Host**
@@ -164,6 +164,51 @@ Estos paquetes han sido compartidos a través de un paquete npm, link del paquet
   npm run dev
   ```
   Esto iniciará el servidor de desarrollo en http://localhost:3003 por defecto.
+
+4. **Ejecutar el proyecto para producción:**
+
+Cada aplicacion debe ser ejecutada de forma individual de la siguiente forma:
+
+- **Host**
+
+  ```bash
+  # Iniciar Host
+  cd host
+  npm start
+  ```
+
+- **APP1**
+
+  ```bash
+  # Iniciar APP1
+  cd app1
+  npm start
+  ```
+
+- **APP2**
+
+  ```bash
+  # Iniciar APP2
+  cd app2
+  npm start
+  ```
+
+- **APP3**
+  ```bash
+  # Iniciar APP3
+  cd app1
+  npm start
+  ```
+
+**Nota:** Al ejecutar los proyectos en modo producción, es importante considerar que Next.js utiliza el puerto 3000 por defecto. Si deseas ejecutar todas las aplicaciones a la vez en diferentes puertos, debes modificar el atributo `scripts --> start` en cada `package.json` de la siguiente manera:
+
+```bash
+"scripts": {
+    "start": "npm run build && next start --p PUERTO",
+  }
+```
+
+Asegúrate de reemplazar `PUERTO` con el número de puerto deseado donde deseas ejecutar la aplicación.
 
 ## Comunicación entre Microfrontends
 

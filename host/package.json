@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
-    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
-    "start": "next start",
+    "build": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "npm run build && next start",
     "lint": "next lint",
     "test": "jest --detectOpenHandles --verbose",
     "coverage": "jest --coverage",

@@ -53,4 +53,5 @@ describe('usePokemon hook', () => {
             expect(result.current.error).toBe(errorMessage);
         });
     });
+
 });

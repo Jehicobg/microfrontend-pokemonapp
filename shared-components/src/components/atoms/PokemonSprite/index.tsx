@@ -12,7 +12,7 @@ const PokemonSprite: React.FC<PokemonSpriteProps> = ({ src, alt }) => {
     const renderContent = () => {
         if (src) return <Image src={src} alt={alt} width={150} height={150} className={styles.image} />;
         // Mostrar esqueleto si src es null
-        return <div className={styles.skeleton}></div>;
+        return <div data-testid='skeleton' className={styles.skeleton}></div>;
     };
 
     return (

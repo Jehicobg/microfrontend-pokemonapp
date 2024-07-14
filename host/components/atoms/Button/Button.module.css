@@ -5,7 +5,8 @@
   background-color: #132777;
   border-radius: 8px;
   text-transform: uppercase;
-  font-family: "Poppins", cursive;
+  font-family: "Poppins";
+  color: #fff;
 }
 
 .button:hover {
