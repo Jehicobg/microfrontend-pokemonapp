@@ -145,7 +145,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App1
    # Cambiar a la ruta principal
-   cd ../..
+   cd ../
 
    # Cambiar a la ruta APP1
    cd app1
@@ -158,7 +158,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App2
    # Cambiar a la ruta principal
-   cd ../..
+   cd ../
 
    # Cambiar a la ruta APP2
    cd app2
@@ -170,7 +170,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App3
    # Cambiar a la ruta principal
-   cd ../..
+   cd ../
 
    # Cambiar a la ruta APP3
    cd app3
@@ -188,7 +188,7 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 
   ```bash
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta del host
   cd host
@@ -204,7 +204,7 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP1
   cd app1
@@ -220,7 +220,7 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP2
   cd app2
@@ -236,7 +236,7 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP3
   cd app3
@@ -255,7 +255,7 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
   ```bash
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta del Host
   cd host
@@ -269,7 +269,7 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP1
   cd app1
@@ -283,7 +283,7 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP2
   cd app2
@@ -297,7 +297,7 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
   ```bash
   # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ../..
+  cd ../
 
   # Cambiar a la ruta APP2
   cd app1
