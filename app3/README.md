@@ -6,31 +6,31 @@ Esta app utiliza la api de `https://pokeapi.co/` para obtener sprites y nombres 
 
 1. Para iniciar la aplicación en modo de desarrollo:
 
-```bash
-# Cambiar a la ruta principal
-cd ..
+   ```bash
+   # Cambiar a la ruta principal
+   cd ..
 
-# Cambiar a la ruta del APP3
-cd app3
+   # Cambiar a la ruta del APP3
+   cd app3
 
-# Iniciar Host
-npm run dev
-```
+   # Iniciar Host
+   npm run dev
+   ```
 
 Esto iniciará la aplicación en http://localhost:3003 por defecto.
 
 2. Para compilar y ejecutar la aplicación en modo de producción:
 
-```bash
-# Cambiar a la ruta principal
-cd ..
+   ```bash
+   # Cambiar a la ruta principal
+   cd ..
 
-# Cambiar a la ruta del Host
-cd app3
+   # Cambiar a la ruta del Host
+   cd app3
 
-# Iniciar APP3
-npm start
-```
+   # Iniciar APP3
+   npm start
+   ```
 
 ## Licencia
 

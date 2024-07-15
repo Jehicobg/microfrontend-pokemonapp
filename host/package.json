@@ -5,8 +5,8 @@
   "author": "Jehicob Guerrero",
   "license": "MIT",
   "scripts": {
-    "dev": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
-    "build": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "dev": "rimraf .next && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
+    "build": "rimraf .next && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
     "start": "npm run build && next start",
     "lint": "next lint",
     "test": "jest --detectOpenHandles --verbose",

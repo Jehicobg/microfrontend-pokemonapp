@@ -99,6 +99,19 @@ Estos componentes han sido compartidos a través de un paquete npm, link del paq
 - **Pruebas**: Jest para pruebas unitarias con una cobertura del 90%
 - **Despliegue**: Vercel para despliegue automático
 
+## Requisitos previos
+
+Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos:
+
+- Node.js (versión 20.15.1LTS o superior)
+
+Puedes verificar si tienes instalados estos requisitos ejecutando los siguientes comandos en tu terminal:
+
+```bash
+# Node.js
+node --v
+```
+
 ## Instalación y Uso
 
 1. **Clonar el repositorio:**

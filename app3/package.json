@@ -5,8 +5,8 @@
   "author": "Jehicob Guerrero",
   "license": "MIT",
   "scripts": {
-    "dev": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3003",
-    "build": "rimraf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "dev": "rimraf .next && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3003",
+    "build": "rimraf .next && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
     "start": "npm run build && next start",
     "lint": "next lint",
     "vercel-build": "npm run build",
@@ -27,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
     "jest": "^29.7.0",
