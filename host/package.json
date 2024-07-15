@@ -33,6 +33,7 @@
     "ts-jest": "^29.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5",
-    "webpack": "^5.93.0"
+    "webpack": "^5.93.0",
+    "cross-env": "^7.0.3"
   }
 }

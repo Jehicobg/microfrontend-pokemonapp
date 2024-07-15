@@ -105,14 +105,22 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
 
 - Node.js (versión 20.15.1LTS o superior)
 
-Puedes verificar si tienes instalados estos requisitos ejecutando los siguientes comandos en tu terminal:
+  Puedes verificar si tienes instalados estos requisitos ejecutando los siguientes comandos en tu terminal:
 
-```bash
-# Node.js
-node --v
-```
+  ```bash
+  # Node.js
+  node --v
+  ```
 
-## Instalación y Uso
+  Si no devuelve una versión, o si necesitas instalarlos, sigue las instrucciones en sus respectivos sitios web:
+
+  ```bash
+  - [Instalación de Node.js](https://nodejs.org/)
+  ```
+
+- [Instalación de Node.js](https://nodejs.org/)
+
+## Instalación y Uso local
 
 1. **Clonar el repositorio:**
 
@@ -238,8 +246,9 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 
   Esto iniciará el servidor de desarrollo en http://localhost:3003 por defecto.
 
-4. **Ejecutar el proyecto para producción:**
-   Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
+## Build de producción
+
+Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
 - **Host**
 
