@@ -74,7 +74,7 @@ microfrontend-pokemonapp/
 
 Los componentes compartidos están organizados en el directorio `shared-components/`.
 
-Estos componentes están diseñados para facilitar la reutilización y mantener una consistencia visual en todas las aplicaciones remotas. Además, este paquete incluye el hook usePokemon, el cual realiza peticiones a la API de `https://pokeapi.co/` para obtener datos de Pokémon. La estructura del directorio shared-components/ es la siguiente:
+Estos componentes están diseñados para facilitar la reutilización y mantener una consistencia visual en todas las aplicaciones remotas. Además, este paquete incluye el hook `usePokemon`, el cual realiza peticiones a la API de `https://pokeapi.co/` para obtener datos de Pokémon. La estructura del directorio shared-components/ es la siguiente:
 
 ```bash
 shared-components/
