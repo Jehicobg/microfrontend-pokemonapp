@@ -115,10 +115,8 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
   Si no devuelve una versión, o si necesitas instalarlos, sigue las instrucciones en sus respectivos sitios web:
 
   ```bash
-  - [Instalación de Node.js](https://nodejs.org/)
+  - Instalación de Node.js: https://nodejs.org/
   ```
-
-- [Instalación de Node.js](https://nodejs.org/)
 
 ## Instalación y Uso local
 
