@@ -7,8 +7,9 @@ Esta app utiliza la api de `https://pokeapi.co/` para obtener sprites y nombres 
 1. Para iniciar la aplicación en modo de desarrollo:
 
    ```bash
+   # Abrir otra terminal
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta del APP1
    cd app1
@@ -22,8 +23,9 @@ Esto iniciará la aplicación en http://localhost:3001 por defecto.
 2. Para compilar y ejecutar la aplicación en modo de producción:
 
    ```bash
+   # Abrir otra terminal
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta del Host
    cd app1

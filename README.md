@@ -145,7 +145,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App1
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta APP1
    cd app1
@@ -158,7 +158,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App2
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta APP2
    cd app2
@@ -170,7 +170,7 @@ Antes de comenzar, asegúrate de que tengas instalados los siguientes requisitos
    ```bash
    # Para la aplicación App3
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta APP3
    cd app3
@@ -188,7 +188,7 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 
   ```bash
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta del host
   cd host
@@ -202,8 +202,9 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 - **APP1**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP1
   cd app1
@@ -217,8 +218,9 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 - **APP2**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP2
   cd app2
@@ -232,11 +234,12 @@ Este paso asegura que cada aplicación tenga instaladas sus dependencias necesar
 - **APP3**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP3
-  cd app1
+  cd app3
 
   # Ejcutar APP3
   npm run dev
@@ -252,7 +255,7 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 
   ```bash
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta del Host
   cd host
@@ -264,8 +267,9 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 - **APP1**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP1
   cd app1
@@ -277,8 +281,9 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 - **APP2**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP2
   cd app2
@@ -290,8 +295,9 @@ Cada aplicación debe ser ejecutada de forma individual de la siguiente forma.
 - **APP3**
 
   ```bash
+  # Abrir otra terminal
   # Cambiar a la ruta principal
-  cd ..
+  cd ../..
 
   # Cambiar a la ruta APP2
   cd app1
@@ -322,7 +328,12 @@ El Host se comunica con las aplicaciones remotas. Cuando se hace clic en el bot�
 
 Este proyecto está configurado para el despliegue automático en Vercel mediante el archivo `vercel-deploy.yml`. Cualquier cambio realizado en la rama principal (main) se desplegará automáticamente en Vercel.
 
-Link del proyecto publicado: https://host-woad.vercel.app/
+## Links del proyecto publicado
+
+- HOST: https://host-woad.vercel.app/
+- APP 1: https://app1-blond.vercel.app/
+- APP 2: https://app2-orpin.vercel.app/
+- APP 3: https://app3-ochre.vercel.app/
 
 ## Licencia
 

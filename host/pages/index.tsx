@@ -1,5 +1,4 @@
 import MainTemplate from "@/components/templates/MainTemplate";
-import Head from "next/head";
 
 export default function Host() {
 
@@ -13,10 +12,7 @@ export default function Host() {
 
   return (
     <>
-      <Head>
-        <title>Host - Microfontend</title>
-        <MainTemplate handleButtonClick={handleButtonClick} />
-      </Head>
+      <MainTemplate handleButtonClick={handleButtonClick} />
     </>
 
   )

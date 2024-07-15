@@ -8,7 +8,7 @@ Esta app utiliza la api de `https://pokeapi.co/` para obtener sprites y nombres 
 
    ```bash
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta del APP3
    cd app3
@@ -23,7 +23,7 @@ Esto iniciará la aplicación en http://localhost:3003 por defecto.
 
    ```bash
    # Cambiar a la ruta principal
-   cd ..
+   cd ../..
 
    # Cambiar a la ruta del Host
    cd app3
